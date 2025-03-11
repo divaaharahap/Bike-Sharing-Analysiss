@@ -18,7 +18,6 @@ Sistem ini memungkinkan pengguna untuk menyewa sepeda dari satu lokasi dan menge
 - **Sumber Cuaca**: Data cuaca diperoleh dari **freemeteo.com**.
 - **Tujuan Penggunaan**:
     - Menganalisis pola penyewaan sepeda berdasarkan waktu dan cuaca.
-    - Menggunakan **RFM Analysis** untuk melihat pola pelanggan.
     - Melakukan **clustering jam operasional** berdasarkan jumlah penyewaan.
 
 ## 3. Menentukan Pertanyaan Bisnis
