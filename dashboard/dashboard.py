@@ -7,7 +7,7 @@ import streamlit as st
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("df_hour_cleaned.csv")
+    df = pd.read_csv("dashboard/df_hour_cleaned.csv")
     df["dteday"] = pd.to_datetime(df["dteday"])
     df["weekday"] = df["dteday"].dt.weekday  # Tambahkan kolom weekday
     return df
